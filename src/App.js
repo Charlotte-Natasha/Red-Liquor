@@ -1,11 +1,21 @@
-import './App.css';
-import { AppBar } from '@mui/material'
+import { Box, Stack } from "@mui/material";
+import About from "./components/About";
+import Navbar from "./components/Navbar";
+import Rightbar from "./components/Rightbar";
+import Sidebar from "./components/Sidebar";
+
 
 function App() {
   return (
-    <AppBar className="App">
-      Navbar
-    </AppBar>
+    <Box>
+        <Navbar/>
+      <Stack direction='row' spacing={2} justifyContent="space-between">
+        <Sidebar/>
+        <About/>
+        <Rightbar/>
+      </Stack>
+    </Box>
+    
   );
 }
 
