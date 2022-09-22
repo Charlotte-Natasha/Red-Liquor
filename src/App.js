@@ -1,4 +1,4 @@
-import { Box, Stack } from "@mui/material";
+import { Stack, Box } from "@mui/material";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Rightbar from "./components/Rightbar";
