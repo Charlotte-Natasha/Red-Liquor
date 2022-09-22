@@ -5,7 +5,10 @@ import Posts from "./Posts";
 
 const About = () => {
     return (
-    <Box flex={4} bgcolor="red" p={2}>
+    <Box flex={4} p={2}>
+        <Posts/>
+        <Posts/>
+        <Posts/>
         <Posts/>
     </Box>    
     );
