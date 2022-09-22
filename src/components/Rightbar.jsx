@@ -21,8 +21,8 @@ const Rightbar = () => {
                 Latest Photos
             </Typography> 
             <ImageList>
-                <ImageListItem>
-                    
+                <ImageListItem >
+
                 </ImageListItem>
             </ImageList>
         </Box>
